@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart & Flutter",
-            "program": "main.dart",
+            "program": "lib/ders1/main.dart",
             "request": "launch",
             "type": "dart"
         }
