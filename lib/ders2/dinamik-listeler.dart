@@ -1,6 +1,6 @@
 void main(List<String> args) {
   
-List<int> numaralar = List();
+List<int> numaralar = [];
 numaralar.add(1);
 numaralar.add(2);
 numaralar.add(3);
@@ -13,7 +13,7 @@ print(numaralar.contains(2)); // *
 //numaralar.clear(); //liste içerisini temizler
 print(numaralar);
 
-List<String> sehirler = List();
+List<String> sehirler = [];
 sehirler.add("İstanbul");
 sehirler.add("Çankırı");
 sehirler.add("Uşak");

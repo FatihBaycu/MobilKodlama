@@ -23,6 +23,7 @@ print(kucuk_sayi);
 String isim, soyisim;
 isim = "YILMAZ";
 String mesaj;
+soyisim="a";
 
 mesaj = isim ?? soyisim;
 
