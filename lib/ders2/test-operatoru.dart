@@ -1,7 +1,15 @@
 // as is is! Fonksiyonlarda ele alacağız...
 
 void main(List<String> args) {
-  
+
+  try{
+    dynamic isim = 1234; //hata olabilir ! 
+    print((isim as String).length);
+  }catch(e){
+    print("Hata oldu ! $e");
+  }
+ 
+
 }
 
 /**

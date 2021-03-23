@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Dart & Flutter",
-            "program": "lib/ders2/odev/main.dart",
+            "program": "lib/ders3/dongu-map-ornek.dart",
             "request": "launch",
             "type": "dart"
         }
