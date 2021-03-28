@@ -19,14 +19,17 @@ print(kucuk_sayi);
     print("$sayi2 < $sayi1");
   }
 
+// Açıklama : null safety güncellemesinden aşağıdaki kullanımı uyguluyoruz.
+// null safety konusunu derste işleyeceğiz.
 
-String isim, soyisim;
+ String? isim, soyisim=null;
 isim = "YILMAZ";
-String mesaj;
+String? mesaj;
 
-mesaj = isim ?? soyisim;
+mesaj = isim.isEmpty ? soyisim : isim;
 
 print("Merhaba ! $mesaj");
+
 
 }
 
