@@ -1,4 +1,4 @@
-import 'dart:io';
+
 
 /**
  * SORU 1 => 3 tane double değişken olusturup bunların ortalamasını yazdıran programı yazınız

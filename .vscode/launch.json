@@ -4,7 +4,7 @@
         
         {
             "name": "Dart & Flutter",
-            "program": "lib/ders2/odev/main.dart",
+            "program": "lib/ders4/asenkron.dart",
             "request": "launch",
             "type": "dart"
         }
