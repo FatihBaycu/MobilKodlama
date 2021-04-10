@@ -1,3 +1,5 @@
+import 'dart:io';
+
 /**
  * SORU 1 => 3 tane double değişken olusturup bunların ortalamasını yazdıran programı yazınız
  * SORU 2 => Kenarlarını girdiğiniz üçgenin çeşidini yazdıran programı yazınız.
@@ -39,5 +41,17 @@ print("///////////////////////////////////////////////////////////////////////")
   if(sonuc>=50){status=true;}
   else{status=false;}
   print("Öğrencinin:\nVize Notu:$vizeNot\nFinal Notu:$finalNot\nNot Ortalaması:$sonuc\nGeçme Durumu:$status");
+
+
+   int toplam=0;
+   for(int i=0; i<=100; i++){
+     if(i%2==0){print("$i sayısı çift sayı");}
+     else print("$i sayısı tek sayı");
+
+     i%2==0?print("$i sayısı çift sayı") :print("$i sayısı tek sayı");
+     print("----------------------------------"); 
+     toplam+=i;
+   }
+   print("1 ile 100 arasındaki sayıların toplamı: $toplam");
 
 }

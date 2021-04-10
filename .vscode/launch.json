@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "Dart & Flutter",
             "program": "lib/ders2/odev/main.dart",
