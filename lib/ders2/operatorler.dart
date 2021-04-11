@@ -11,7 +11,11 @@ void main(List<String> args) {
   print("$sayi1 / $sayi2 = ${sayi1/sayi2}");
   print("$sayi1 mod $sayi2 = ${sayi1%sayi2}");
   
-  
+    double s1=10.50,s2=1200.10,toplam;
+    toplam=s2/s1;
+    print("toplam : "+(toplam.toInt()).toString());
+
+
   //Atamalar = , += , -= , *= , /=
   // Karşılaştırma <, >, <=, >=, ==, !=
   // Mantıksal && , || , !

@@ -10,6 +10,8 @@ numaralar.add(6);
 numaralar[1] = 10;
 
 print(numaralar.contains(2)); // *
+
+
 //numaralar.clear(); //liste içerisini temizler
 print(numaralar);
 

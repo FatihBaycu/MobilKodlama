@@ -1,6 +1,6 @@
 void main(List<String> args) {
   
-  var cumle = "Merhaba! ben Türkçe konuşuyorum, Flutter öğreniyorum.";
+  var cumle = "üüüüüMerhaba! ben Türkçe konuşuyorum, Flutter öğreniyorum.";
   print(cumle);
 
   //Soru: Verilen bir cümle içerisinde Türkçe karakterleri kaldıran programı yazınız. Map kullanınız. 
@@ -19,6 +19,7 @@ void main(List<String> args) {
  
   for(int i =0; i<cumle.length; i++){
     if(karakterler.containsKey(cumle[i])){
+
       cumle = cumle.replaceAll(cumle[i].toString(), karakterler[cumle[i]].toString());
     }
   }

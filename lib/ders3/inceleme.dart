@@ -11,7 +11,7 @@ void main(List<String> args) {
       return numbers.length == 2;
     
   }
-
+//  a kadar dön a eğer dönen değerler ile tam bölünüyorsa listeye ekle, liste.uzunluğunu 2 olarak döndürmüş.
   dynamic myNewFunction(int a) {
     
     if (isSimple(a)) {

@@ -1,7 +1,9 @@
+
 void main(){
 
-  //print(1+2); print("Merhaba !"+" Flutter");
-  /*int tam_sayi = 10;
+  print(1+2);
+  print("Merhaba !"+" Flutter");
+  int tam_sayi = 10;
   print("Tam sayının değeri = "+ tam_sayi.toString()); //!! string + double int - string 
 
   int sayi1, sayi2;
@@ -15,11 +17,13 @@ void main(){
   String yazi;
   yazi = "Flutter";
   yazi = 'Dart\'ı sevdim $yazi\' da sevdim...';
+  
   print(yazi);
-*/
 
 
-/* String coklu_satir = """Flutter
+
+
+ String coklu_satir = """Flutter
                                 ve
                                           Dart öğreniyorum""";   
 print(coklu_satir);
@@ -30,7 +34,7 @@ print(yeni_satir);
 String yeni_satir_engelle = r"Merhaba! \n Flutter ve Dart öğreniyorum..."; //r string ifade içerisindeki kodları yok sayar...
 print(yeni_satir_engelle);
 
-String uzun_yazi = 'Uzun yazı satırı 1'
+String uzun_yazi = "Uzun yazı satırı 1"
                                               ' uzun yazi devami'
                                                     " uzun yazi sonu";
 
@@ -54,7 +58,7 @@ print("Eni $en boyu $boy olan dikdörtgenin alani : ${en+boy}"); // ${ number } 
 
 bool ogrenci_mi; //true false
 ogrenci_mi = false;
-*/
+
 var degisken;
 degisken = 1;
 print(degisken);
@@ -66,25 +70,31 @@ degisken = true;
 print(degisken);
 
 const base_url = "https://google.com/";
+// sabit ve değişmeyen değiştirilemeyen
+
+          
 print(base_url);
 
 String api_url = "comments.json";
 print(base_url+api_url);
 print(base_url+"reviews");
 
-var dizi = [1,2,3,4,5,6,7,8,3,4,5,6,7,8,7,8,3,4,5,6,7,8,7,8,3,4,5,6,7,8,3,4,5,6,7,8,3,4,5,6,7,8,3,4,5,6,7,8,3,4,5,6,7,8,3,4,5,6,7,8];
+var dizi = [1,2,3,4,5,6,7,8,3,4,5,6,7,8,7,8,3,4,5,6,7,8,7,8,3,4,5,6,7,8,3,4,5,6,7,8,3,4,5,6,7,8,3,4,5,6,7,8,3,4,5,6,7,8,3,4,5,6,7,8,10];
 print(dizi);
 print(dizi.length); //uzunluk
 print(dizi[dizi.length-1]);
+
 print(dizi.last);
 print(dizi.first);
 print(dizi.reversed);
 
 
+   
+
 }
 
 
-  // Değişkenlerin başlangıç değeri olmazsa, null atanır.
+ // Değişkenlerin başlangıç değeri olmazsa, null atanır.
   /**Uninitialized variables have an initial value of null. Even variables with numeric types are initially null, because numbers—like everything else in Dart—are objects. */
 
   /*

@@ -4,11 +4,14 @@ int sayi1, sayi2;
 int kucuk_sayi;
 sayi1 = 60;
 sayi2 = -1;
+
 sayi1 < sayi2 ?  print("$sayi1 < $sayi2") : print("$sayi2 < $sayi1");
 
 sayi1 < sayi2 ? kucuk_sayi=sayi1: kucuk_sayi=sayi2;
 print(kucuk_sayi);
 
+
+  
 
 kucuk_sayi = (sayi1<sayi2) ? sayi1 : sayi2;
 print(kucuk_sayi);

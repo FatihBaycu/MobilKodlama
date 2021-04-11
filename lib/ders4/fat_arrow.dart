@@ -27,6 +27,10 @@ print("$x ile $y arasında büyük olan "+ makBul(x,y).toString());
 
 int makBul(int x, int y) => x > y ? x : y;
 
+int makBul2(int x,int y){
+  if (x>y) {return x;}
+  else     {return y;}
+}
 
 int toplama(int x, int y) => x+y;
 int carp(int x, int y) => x*y;

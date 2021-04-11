@@ -6,17 +6,25 @@ dilYili(String dil, int yil){
 int yas(int dyili){
   return simdikiYil - dyili;
 }
-merhaba(String isim, int dyili){ // yaş >18 kategorisi yetişkin.. <18 kategorisi genç
+merhaba(String isim, int dyili){ 
+
+  // yaş >18 kategorisi yetişkin.. <18 kategorisi genç
 /* (simdikiYil-dyili) > 18 ? print("$isim, ${simdikiYil-dyili} yaşında, yetişkin") :
  print("$isim, ${simdikiYil-dyili}, genç"); */
+
+
 int yasi = yas(dyili);
 yasi > 18 ? print("$isim, ${simdikiYil-dyili} yaşında, yetişkin") :
  print("$isim, ${simdikiYil-dyili}, genç");
 }
 
-ekranaYaz({String? isim, int? yas}){ //Flutter ve Dart 2 ...
+
+
+ekranaYaz({String? isim, int? yas}){ 
+  //Flutter ve Dart 2 ...
 // null safety -> vizeden sonraki derste...
 // print("Merhaba $isim");
+// 
 print("Merhaba ! "+(isim != null ? isim :"").toString());
 }
 

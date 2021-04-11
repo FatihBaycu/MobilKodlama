@@ -24,11 +24,11 @@ finally{
 print("***************************");
 
 
-/*String programlama = "React"; //fonksiyonlar todo
-if(programlama != "Flutter"){
+String programlama = "React"; //fonksiyonlar todo
+if(programlama != "React"){
   throw new Exception("Hata oldu ! Ders Flutter !");
-  print("Dersin konusu flutter");
-}*/
+  //print("Dersin konusu flutter");
+}
 
 // ** Sınav ! a b + * - / 
 
@@ -41,13 +41,14 @@ if(programlama != "Flutter"){
       print("$sayi1 x $sayi2 = ${sayi1*sayi2}");
       print("$sayi1 / $sayi2 = ${sayi1/sayi2}"); // !! bölünme hatası
       print("$sayi1 mod $sayi2 = ${sayi1%sayi2}");
-  }/*on IntegerDivisionByZeroException{
-    print("Bölen 0 olamaz !");
-  }*/
+  }
+  on IntegerDivisionByZeroException{
+    print("Bölen 0 olamaz. !");
+  }
   catch (e, s){
       print("Bölen 0 olamaz !");
-      //print(e);
-     // print(s);
+      print(e);
+      print(s);
   }
 
   //ders 2 test-operatörü konusundan devam edildi *!!

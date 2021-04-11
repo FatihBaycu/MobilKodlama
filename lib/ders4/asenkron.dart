@@ -3,11 +3,10 @@ void main(List<String> args) {
 print("İndirme başladı. Lütfen bekleyiniz....");
 asenkron().then((String mesaj) => print(mesaj));
 
-/*
+
 fonsiyon1();
 fonsiyon2();
 fonsiyon3();
-*/
 
 }
 

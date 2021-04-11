@@ -19,10 +19,12 @@ void main(List<String> args) {
 
   // List<int> numaralar = List(25); //tanımlama
   List<int> numaralar = List.filled(25, 5); 
+  print(numaralar.length);
   print(numaralar);
+
   numaralar[0] = 123;
   numaralar[3] = 456;
-  numaralar[9] = 789;
+  numaralar[24] = 789;
   
   print(numaralar[numaralar.length-1]);
   
