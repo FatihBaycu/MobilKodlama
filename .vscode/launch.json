@@ -1,10 +1,9 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
         {
             "name": "Dart & Flutter",
-            "program": "lib/ders3/inceleme.dart",
+            "program": "lib/tekrar_ders/main.dart",
             "request": "launch",
             "type": "dart"
         }
